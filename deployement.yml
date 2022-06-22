@@ -1,8 +1,8 @@
 # K8s for calculator app / image
 apiVersion: apps/v1
-kind: Deployement
+kind: Deployment
 metadata:
-  name: calc-deployement
+  name: calc-deployment
 spec:
   selector:
     matchLabels:
